@@ -1,6 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Dependencies>
   <Dependency>
+    <ExtensionId>CKEditor</ExtensionId>
+    <LoaderName>DynamicExtensionLoader</LoaderName>
+    <VirtualPath>~/Modules/CKEditor/CKEditor.csproj</VirtualPath>
+    <Hash>cf88c2a33c6c6dc8</Hash>
+  </Dependency>
+  <Dependency>
     <ExtensionId>Contrib.Profile</ExtensionId>
     <LoaderName>DynamicExtensionLoader</LoaderName>
     <VirtualPath>~/Modules/Contrib.Profile/Contrib.Profile.csproj</VirtualPath>
@@ -19,16 +25,34 @@
     <Hash>9228a62d42872804</Hash>
   </Dependency>
   <Dependency>
+    <ExtensionId>M33.Layout</ExtensionId>
+    <LoaderName>DynamicExtensionLoader</LoaderName>
+    <VirtualPath>~/Modules/M33.Layout/M33.Layout.csproj</VirtualPath>
+    <Hash>b0de81d066083271</Hash>
+  </Dependency>
+  <Dependency>
     <ExtensionId>Markdown</ExtensionId>
     <LoaderName>PrecompiledExtensionLoader</LoaderName>
     <VirtualPath>~/Modules/Markdown/bin/Markdown.dll</VirtualPath>
     <Hash>923c5e414353897b</Hash>
   </Dependency>
   <Dependency>
+    <ExtensionId>Mello.ImageGallery</ExtensionId>
+    <LoaderName>DynamicExtensionLoader</LoaderName>
+    <VirtualPath>~/Modules/Mello.ImageGallery/Mello.ImageGallery.csproj</VirtualPath>
+    <Hash>eef9b7d5742d94bb</Hash>
+  </Dependency>
+  <Dependency>
     <ExtensionId>Metro</ExtensionId>
     <LoaderName>DynamicExtensionLoader</LoaderName>
     <VirtualPath>~/Themes/Metro/Metro.csproj</VirtualPath>
     <Hash>91b29dede145190f</Hash>
+  </Dependency>
+  <Dependency>
+    <ExtensionId>NGM.Forum</ExtensionId>
+    <LoaderName>DynamicExtensionLoader</LoaderName>
+    <VirtualPath>~/Modules/NGM.Forum/NGM.Forum.csproj</VirtualPath>
+    <Hash>97ab624976e513fc</Hash>
   </Dependency>
   <Dependency>
     <ExtensionId>NGM.VoteUpDown</ExtensionId>
@@ -310,7 +334,7 @@
     <ExtensionId>Orchard.Warmup</ExtensionId>
     <LoaderName>DynamicExtensionLoader</LoaderName>
     <VirtualPath>~/Modules/Orchard.Warmup/Orchard.Warmup.csproj</VirtualPath>
-    <Hash>421cc89d510ddd11</Hash>
+    <Hash>421cc9634d957bae</Hash>
   </Dependency>
   <Dependency>
     <ExtensionId>Orchard.Widgets</ExtensionId>
