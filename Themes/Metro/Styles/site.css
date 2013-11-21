@@ -8740,15 +8740,23 @@ footer #Footer > span:last-child {
 #MenuV ul.menu > li.current{
   margin-right: -20px; /*added*/
 }
+#MenuV ul.menu > li > .submenu{
+  margin: 0 0 0 19px !important; /*added*/
+}
 #MenuV .submenu {
   background-color: #3678be;
-  margin: 0 0 0 19px !important; /*added*/
+  margin: 0 0 0 -1px !important; /*added*/
   min-width: 200px;
   padding: 0;
   top: 0 !important;
   z-index: 9999;
 }
-
+#MenuV .submenu > li{
+  border-bottom: 1px solid #fff;  /*added*/
+}
+#MenuV .submenu > li:last-child{
+  border-bottom: 0px;  /*added*/
+}
 #MenuV .submenu li,
 #MenuV .submenu li:hover,
 #MenuV .submenu li.current {
@@ -9509,6 +9517,72 @@ ul.menu > li > span > p {
 .C05 .BL					{ display:none; }
 .C05 .BR					{  }
 .C05 .BM					{  }
+
+
+/*From here, added*/
+.blog-post.content-item > header > h1{
+  font-size: 30px;
+}
+.blog-posts.content-items {
+  padding-left:20px;
+  padding-right:20px;
+}
+li{
+    list-style: square;
+}
+.content-item.skills h1{
+    font-size: 20px;
+    margin-bottom: -7px;
+}
+section.media-library-picker-field.media-library-picker-field-avatar > h3{
+    display: none;
+}
+article.media-item.media-item-summary.image > header{
+    display: none;
+}
+/*fixed bug on login page*/
+fieldset.login-form.group > div{
+    display: none;
+}
+/*end fix*/
+/*login page*/
+div.MM > ul{
+    margin-top: 10px;
+}
+div.MM > ul > li{
+    list-style: none;
+    width: 200px;
+    height: 50px;
+    opacity: 0.5;
+    -webkit-transition: all 0.6s ease-in-out;
+    -moz-transition: all 0.6s ease-in-out;
+    -o-transition: all 0.6s ease-in-out;
+    transition: all 0.6s ease-in-out;
+}
+div.MM > ul > li:hover{
+    opacity: 1;
+}
+div.MM > ul li:nth-child(1) > a{
+    display: block;
+    text-indent: 9999px;
+    background: url('images/google.png') no-repeat top left;
+    width: 200px;
+    height: 50px;
+}
+div.MM > ul li:nth-child(2) > a{
+    display: block;
+    text-indent: 9999px;
+    background: url('images/fb.png') no-repeat top left;
+    width: 200px;
+    height: 50px;
+}
+div.MM > ul li:nth-child(3) > a{
+    display: block;
+    text-indent: 9999px;
+    background: url('images/linkedin.png') no-repeat top left;
+    width: 200px;
+    height: 50px;
+}
 
 
 
